@@ -1,1 +1,0 @@
-# demo-plantdiagnosis.github.io
