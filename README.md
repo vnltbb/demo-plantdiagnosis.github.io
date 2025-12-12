@@ -6,7 +6,7 @@ This project demonstrates **client-side inference in the browser** using a ResNe
 without any backend server.
 
 🔗 **Live Demo**  
-https://vnltbb.github.io/
+https://vnltbb.github.io/demo-plantdiagnosis.github.io
 
 ---
 
