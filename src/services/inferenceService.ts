@@ -27,7 +27,8 @@ function getOrt(): any {
 // - gh-pages: BASE_URL="/<repo>/"
 function getModelUrl(): string {
   const base = import.meta.env.BASE_URL ?? '/';
-  return `${base.endsWith('/') ? base : base + '/'}model.onnx`;
+  const normalizedBase = base.endsWith('/') ? base : `${base}/`;
+  return `${normalizedBase}model.onnx`;
 }
 
 // ---- session cache (매번 만들면 느림 + 불안정) ----
