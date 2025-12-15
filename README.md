@@ -92,7 +92,7 @@ npm run preview
 this repository is deployed sutomatically via GitHub Actions to GitHub Pages.
 - Trigger: push to `main`
 - Output: `dist/`
-- URL: https://vnltbb.github.io/
+- URL: https://vnltbb.github.io/demo-plantdiagnosis.github.io
 ---
 ## Notes
 - the ONNX model file **must be included in the repository** (`public/model.onnx`)
